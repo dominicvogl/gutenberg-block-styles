@@ -4,6 +4,11 @@
  */
 
 wp.blocks.registerBlockStyle( 'core/paragraph', {
-	name: 'blue-paragraph',
-	label: 'Blue Paragraph'
+	name: 'fixed-width-paragraph',
+	label: 'Fixed Width'
+} );
+
+wp.blocks.registerBlockStyle( 'core/list', {
+	name: 'fixed-width-list',
+	label: 'Fixed Width'
 } );

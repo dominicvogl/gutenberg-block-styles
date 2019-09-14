@@ -3,8 +3,8 @@
  * If a theme's editor style specifies the same classname, these may be overwritten. 
  */
 
-.is-style-blue-paragraph {
-	background-color: #0087be;
-	color: #FFF;
-	padding: 16px;
+.is-style-fixed-width-paragraph,
+.is-style-fixed-width-list {
+	max-width: 760px;
+	margin: 0 auto;
 }
