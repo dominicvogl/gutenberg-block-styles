@@ -12,8 +12,3 @@ wp.blocks.registerBlockStyle( 'core/list', {
 	name: 'fixed-width-list',
 	label: 'Fixed Width'
 } );
-
-wp.blocks.registerBlockStyle( 'core/html', {
-	name: 'fixed-width-list',
-	label: 'Fixed Width'
-} );
