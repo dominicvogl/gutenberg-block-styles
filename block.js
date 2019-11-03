@@ -8,6 +8,11 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 	label: 'Fixed Width'
 } );
 
+wp.blocks.registerBlockStyle( 'core/heading', {
+	name: 'fixed-width-heading',
+	label: 'Fixed Width'
+} );
+
 wp.blocks.registerBlockStyle( 'core/list', {
 	name: 'fixed-width-list',
 	label: 'Fixed Width'
