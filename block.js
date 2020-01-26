@@ -17,3 +17,8 @@ wp.blocks.registerBlockStyle( 'core/list', {
 	name: 'fixed-width-list',
 	label: 'Fixed Width'
 } );
+
+wp.blocks.registerBlockStyle( 'acf/carousel', {
+	name: 'fixed-width-carousel',
+	label: 'Fixed Width'
+} );
